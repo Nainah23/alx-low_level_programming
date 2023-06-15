@@ -5,13 +5,13 @@
 /**
  * main - Entry point
  *
- * Return: Always 1 (Success)
+ * Return: 1 in this case
  */
 
 int main(void)
 {
 	char str[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
-	
+
 	fwrite(str, sizeof(char), strlen(str), stderr);
 	return (1);
 }

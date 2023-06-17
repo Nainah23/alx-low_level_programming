@@ -12,7 +12,7 @@
 int main(void)
 {
 	int n, last;
-	char compl[50};
+	char compl[50];
 	
 	srand(time(0));
 	n = rand() - RAND_MAX /2;

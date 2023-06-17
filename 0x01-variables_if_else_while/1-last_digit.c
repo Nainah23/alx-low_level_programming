@@ -16,7 +16,7 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	last = abs(n % 10);
+	last = n % 10;
 	if (last > 5)
 		strcpy(compl, "and is greater than 5\n");
 	else if (last == 0)

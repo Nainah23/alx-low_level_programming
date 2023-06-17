@@ -10,10 +10,10 @@
 
 int main(void)
 {
-	int x;
+	int n;
 
 	srand(time(0));
-	x = rand() - RAND_MAX / 2;
+	n = rand() - RAND_MAX / 2;
 	/* My code */
 	if (n > 0)
 	{

@@ -1,9 +1,10 @@
 #include "main.h"
 /*
- * _islower - controls if a character is lowercase
+ * _islower - checks if a character is lowercase
+ *
  * @c: character that is to be verified
  *
- * Return: return 0 or 1
+ * Return: return 1 if character is lowercase, 0 otherwise
  */
 int _islower(int c)
 {

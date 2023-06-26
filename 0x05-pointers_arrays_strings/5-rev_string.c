@@ -2,7 +2,7 @@
 /**
  * rev_strinf - Reverses a string
  * @s: The string to be reversed
- * Description: This  function that reverses a string.
+ * Description: This  function takes a string and reverses its contents in place. It swaps characters from the beginning and end of the string until it reaches the middle.
  * Return: void
  */
 void rev_string(char *s)

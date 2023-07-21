@@ -12,7 +12,7 @@ void print_all(const char * const format, ...)
 
 	va_list list;
 
-	va_start(list,format);
+	va_start(list, format);
 
 	if (format)
 	{
@@ -28,7 +28,7 @@ void print_all(const char * const format, ...)
 					break;
 				case 'f':
 					printf("%s%f", sep, va_arg(list, double));
-                                        break;
+					break;
 				case 's':
 					str = va_arg(list, char *);
 					if (!str)

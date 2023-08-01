@@ -1,7 +1,7 @@
 #include "lists.h"
 
 /**
- * add_nodeint_end - It adds a new node after the list
+ * add_nodeint - It adds a new node after the list
  * @head: Its a pointer to the list's first element
  * @n: the information to be added in the new element
  *

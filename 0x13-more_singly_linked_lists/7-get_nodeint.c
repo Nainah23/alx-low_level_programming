@@ -1,7 +1,7 @@
 #include "lists.h"
 
 /**
- * det_nodeint_at_index - produces the node at a given index in a list
+ * get_nodeint_at_index - produces the node at a given index in a list
  * @head: first node in the linked list
  * @index: node index to be returned
  *

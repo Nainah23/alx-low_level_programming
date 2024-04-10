@@ -2,17 +2,16 @@
 
 /**
   * recursive_advanced_binary - Searches recursively for a value in a sorted
-  *                             array of integers using binary search algorithm.
+  *	array of integers using binary search algorithm.
   * @array: A pointer to the first element of the [sub]array to search in.
   * @left: The starting index of the [sub]array to search in.
   * @right: The ending index of the [sub]array to search in.
   * @value: The value to search for.
   *
   * Return: The index where the value is located
-  * 	or -1 If the value is not present.
-  *
+  *	or -1 If the value is not present.
   */
-int advanced_binary_recursive(int *array, size_t left, size_t right, int value)
+int recursive_advanced_binary(int *array, size_t left, size_t right, int value)
 {
 	size_t i;
 
@@ -42,7 +41,7 @@ int advanced_binary_recursive(int *array, size_t left, size_t right, int value)
   * Return: The index where the value is located
   * or -1 If the value is not present.
   * Description: Every time you split the array, you have to print the new
-  * 	array (or subarray) you’re searching in
+  *	array (or subarray) you’re searching in
   */
 int advanced_binary(int *array, size_t size, int value)
 {

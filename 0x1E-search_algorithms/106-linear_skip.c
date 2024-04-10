@@ -7,11 +7,11 @@
  * @value: The value to search for.
  *
  * Return: A pointer to the first node where the value is located
- * 	or NULL If the value is not present or the head of the list is NULL.
+ *	or NULL If the value is not present or the head of the list is NULL.
  *
  * Description: Every time you compare a value in the list to the value you
- * 	are searching, you have to print this value.
- * 	Uses the square root of the list size as the jump step.
+ *	are searching, you have to print this value.
+ *	Uses the square root of the list size as the jump step.
  */
 skiplist_t *linear_skip(skiplist_t *list, int value)
 {

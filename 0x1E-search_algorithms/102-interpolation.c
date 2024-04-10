@@ -2,16 +2,16 @@
 
 /**
   * interpolation_search - Searches for a value in a sorted array of
-  * 	integers using Interpolation search algorithm.
+  *	integers using Interpolation search algorithm.
   * @array: A pointer to the first element of the array to search in.
   * @size: The number of elements in the array.
   * @value: The value to search for.
   *
   * Return: The first index where the value is located
-  * 	or -1 If the value is not present or the array is NULL.
+  *	or -1 If the value is not present or the array is NULL.
   *
   * Description: Every time you compare a value in the array to the value
-  * 	you are searching, you have to print this value
+  *	you are searching, you have to print this value
   */
 int interpolation_search(int *array, size_t size, int value)
 {
